@@ -16,6 +16,7 @@ namespace HouseRentingSystem.Tests.IntegrationsTests
         {
             // Arrange: assign a valid status code to a variable
             var statusCode = 500;
+            var workflowTestVoid = 0;
 
             // Act: invoke the controller method with valid data
             var result = this.homeController.Error(statusCode);
