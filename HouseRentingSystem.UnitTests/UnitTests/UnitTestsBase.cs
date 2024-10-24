@@ -23,7 +23,7 @@ namespace HouseRentingSystem.Tests.UnitTests
         public User Renter { get; private set; }
         public Agent Agent { get; private set; }
         public House RentedHouse { get; private set; }
-
+// test change - check if workflow 1 triggers
         private void SeedDatabase()
         {
             this.Renter = new User()
